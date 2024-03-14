@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #4bcbd5;
+}
+
+.container {
+  background-color: rgb(41, 151, 225);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.996);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 5000px;
+}
+
+.box {
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 70vh;
+}
+
+table,
+th,
+td {
+  padding: 20px;
+  font-size: 50px;
+}
+
+span {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 50%;
+  transition: 0.5s;
+  padding: 8px;
+}
+
+span:hover {
+  background-color: #fffefe;
+}
+
+.enunciado {
+  margin: 15px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+#intercaladas {
+  margin-left: 8px;
+}
+
+label {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: rgba(95, 13, 247, 0.973);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  transition: 0.3s;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+button:hover {
+  background-color: rgb(171, 33, 184);
+  box-shadow: 0 0 5px rgba(185, 47, 47, 0.3);
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#imgBanner {
+  border-radius: 1000px;
+  width: 500px;
+  height: 500px;
+}
+
+hr {
+  margin: 10px;
+}
